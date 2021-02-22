@@ -4,6 +4,11 @@
 # !pip install pydub 
 # !pip install ffmpeg 
 
+# How to Install FFmpeg on Windows
+# http://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/
+# https://www.gyan.dev/ffmpeg/builds/
+# path in environment variable according to ffmpeg.exe file location in bin folder of unzipped folder from zipped folder from https://www.gyan.dev/ffmpeg/builds/ downlaod .  
+
 import xgboost as xgb
 from pydub import AudioSegment
 from pydub.utils import which
